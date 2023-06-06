@@ -1,0 +1,50 @@
+/* styles.css */
+*{
+  background-color: rgb(255, 254, 254);
+}
+.app {
+  text-align: center;
+  border:2px solid black;
+  width:20%;
+  margin: auto;
+  height:10%;
+  background-color:rgb(227, 225, 226);
+  padding: 1%;
+  
+}
+
+.event-list {
+  margin: 20px;
+}
+
+.event-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.event-form {
+  margin: 20px;
+}
+
+.event-form input,
+.event-form button {
+  margin-bottom: 10px;
+}
+
+.event-form input[type='text'],
+.event-form button {
+  padding: 5px;
+  width: 200px;
+}
+
+.event-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.event-form button:hover {
+  background-color: #0056b3;
+}
